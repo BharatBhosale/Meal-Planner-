@@ -4,9 +4,7 @@ import "./style.css";
 const Home = () => {
   return (
     <div className="home">
-
-      {/* HERO TEXT */}
-      <section className="hero-text">
+      <section className="text">
         <h1>
           Your Personal Meal Planning <br /> Assistant
         </h1>
@@ -16,8 +14,7 @@ const Home = () => {
         </p>
       </section>
 
-      {/* HERO IMAGE / SLIDER */}
-      <section className="hero-image">
+      <section className="image">
         <div className="slider">
           <div className="slide-track">
             <div className="slide">
@@ -36,7 +33,7 @@ const Home = () => {
         </div>
       </section>
       
-      <div className="features-title">
+      <div className="title">
         <h2>Why Choose Meal Planner?</h2>
         <p>
           Smart features designed to help you eat healthy, stay fit,
@@ -44,8 +41,6 @@ const Home = () => {
         </p>
       </div>
 
-      {/* IMAGE ANI FEATURES MADHLA TEXT */}
-      {/* FEATURES SECTION */}
       <section className="features-wrapper">
         <div className="features-grid">
 
