@@ -1,5 +1,4 @@
-import React, { useCallback } from "react";
-import PropTypes from "prop-types";
+
 import "./style.css";
 
 function Navbar({ isLoggedIn, setShowAuth, setIsLoggedIn, setNavSelection,navSelection }) {
