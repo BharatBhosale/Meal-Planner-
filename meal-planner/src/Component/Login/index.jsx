@@ -28,10 +28,10 @@ function Auth({ setIsLoggedIn, setShowAuth,setNavSelection }) {
   };
 
   return (
-    <div className="container">
+    <div className="log-container">
         
       <form
-        className="box"
+        className="log-box"
         onSubmit={isLogin ? handleLogin : handleRegister}
       >
         <div className="header">
@@ -57,7 +57,7 @@ function Auth({ setIsLoggedIn, setShowAuth,setNavSelection }) {
 
         <button>{isLogin ? "Login" : "Register"}</button>
 
-        <p className="text">
+        <p className="log-text">
           {isLogin ? "No account?" : "Already registered?"}
           <span onClick={() => setIsLogin(!isLogin)}>
             {isLogin ? " Register" : " Login"}

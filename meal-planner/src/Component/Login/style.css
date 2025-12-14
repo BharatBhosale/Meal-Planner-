@@ -1,14 +1,19 @@
-.container {
-  height: 80vh;
+.log-container {
+
+  margin-top: 63px;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(20px);
--webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: linear-gradient(180deg,
+      #e9580f 0%,
+      #e6a118 100%);
 
 }
 
-.box {
+.log-box {
   background: #fff;
   padding: 30px;
   width: 330px;
@@ -21,25 +26,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10px;
+  gap: 10px;
   margin-bottom: 0px;
 }
-.name-text{
-    font-size: 1.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.name-text {
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
 
-.box h2 {
+.log-box h2 {
   margin-bottom: 20px;
   color: #333;
   margin-top: 0px;
 }
 
-.box input {
+.log-box input {
   width: 80%;
   padding: 10px;
   margin-bottom: 15px;
@@ -47,7 +53,7 @@
   border: 1px solid #ccc;
 }
 
-.box button {
+.log-box button {
   width: 50%;
   padding: 10px;
   background: black;
@@ -58,36 +64,36 @@
   font-size: 16px;
 }
 
-.box button:hover {
+.log-box button:hover {
   background: #5a67d8;
 }
 
-.text {
+.log-text {
   margin-top: 15px;
   font-size: 14px;
 }
 
-.text span {
+.log-text span {
   color: #667eea;
   cursor: pointer;
   font-weight: 500;
 }
 
 @media (max-width: 480px) {
-  .box {
+  .log-box {
     width: 80%;
     padding: 18px;
   }
 
-  .box h2 {
+  .log-box h2 {
     font-size: 1.2rem;
   }
 
-  .box input {
+  .log-box input {
     font-size: 14px;
   }
 
-  .box button {
+  .log-box button {
     font-size: 14px;
   }
 }
