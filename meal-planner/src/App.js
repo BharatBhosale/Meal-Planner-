@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./Component/AboutUs";
 import ContactUs from "./Component/ContactUs";
+import Footer from "./Component/Footer";
 import Home from "./Component/Home";
 import Login from "./Component/Login";
 import Logout from "./Component/Logout";
@@ -47,13 +48,10 @@ function App() {
         navSelection={navSelection}
       />
 
-      {/* {showAuth && !isLoggedIn && (
-        <Login setIsLoggedIn={setIsLoggedIn} setShowAuth={setShowAuth} />
-      )} */}
-
       {isLoggedIn && <Logout setIsLoggedIn={setIsLoggedIn} />}
       <div className="app-container">
         {pages(navSelection)}
+        <Footer/>
       </div>
     </>
   );
