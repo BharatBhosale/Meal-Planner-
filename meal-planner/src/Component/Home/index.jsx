@@ -35,6 +35,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
       <div className="features-title">
         <h2>Why Choose Meal Planner?</h2>
         <p>
